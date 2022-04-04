@@ -1,2 +1,4 @@
 #!/bin/bash
-echo " ls -la >> ! -f ls_cwd_content "
+echo "if test -f "ls_cwd_content "; then
+    ls -la >> ls_cwd_content 
+else touch ls_cwd_content
