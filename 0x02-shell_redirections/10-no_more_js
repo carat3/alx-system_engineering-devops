@@ -1,2 +1,2 @@
 #!/bin/nash
-find /js > rm 
+rm -f *.js 
