@@ -1,2 +1,2 @@
 #!/bin/nash
-rm -f *.js 
+find . -type f -name '*.js' -exec rm -f {} \; 
